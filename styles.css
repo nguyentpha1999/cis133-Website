@@ -32,6 +32,7 @@
   background-color: black;
   background-image: linear-gradient(to top, blue 0%, blue 100%);
   background-size: 100%;
+  background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -227,6 +228,7 @@
   background-color: red;
   background-image: linear-gradient(to top, red 0%, red 100%);
   background-size: 100%;
+  background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -238,6 +240,7 @@
   background-color: orange;
   background-image: linear-gradient(to top, orange 0%, orange 100%);
   background-size: 100%;
+  background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -362,13 +365,28 @@
   color: red;
   margin-bottom: 3rem;
   font-size: 4rem;
+  text-transform: uppercase;
 }
 
 .anime {
   padding: 5rem;
+  background-color: black;
 }
 
 .anime .box {
   width: 299px;
   height: 168px;
+}
+
+.anime .content h3 {
+  font-size: 1.7rem;
+  color: red;
+  text-transform: uppercase;
+  text-align: center;
+  padding-right: 6.5rem;
+}
+
+.anime .content p {
+  font-size: 1rem;
+  color: cyan;
 }
