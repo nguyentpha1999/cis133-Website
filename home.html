@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ANIME4YOU</title>
+    <!--styles.css link-->
+    <link rel="stylesheet" href="styles.css" />
+    <!--font awesome link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!--head and body-->
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar_container">
+        <a href="/" id="navbar_logo"><i class="fa-solid fa-tv"></i>ANIME4YOU</a>
+        <div class="navbar_toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar_menu">
+          <li class="navbar_btn">
+            <a href="/" class="button">HOME</a>
+          </li>
+          <li class="navbar_item">
+            <a href="/" class="navbar_links">POPULAR</a>
+          </li>
+          <li class="navbar_item">
+            <a href="/" class="navbar_links">GENRE</a>
+          </li>
+          <li class="navbar_item">
+            <a href="/" class="navbar_links">MOVIE</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--MAIN-->
+    <div class="main">
+      <div class="main_container">
+        <div class="main_content">
+          <h1>ANIME4YOU</h1>
+          <h2>Where Fan Belong</h2>
+          <p>Watch your favorite Anime here!!!</p>
+          <button class="main_btn"><a href="/">Get Started</a></button>
+        </div>
+        <div class="main_img--container">
+          <img src="img/onepiece2.webp" alt="pic" id="main_img" />
+        </div>
+      </div>
+    </div>
+
+    <!--ON GOING-->
+
+    <section class="anime" id="anime">
+      <h1 class="heading">On Going</h1>
+      <div class="swiper anime-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="background: url(img/onepiece3.jpg) no-repeat"
+            ></div>
+            <div class="content">
+              <h3>One Piece</h3>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
