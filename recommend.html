@@ -50,29 +50,69 @@
     </nav>
 
     <!--RECOMMEND PAGE-->
-    <section class="hero-recommend">
+
+    <section class="recommend-html">
       <div class="recommend-container">
-        <div class="hero-slider">
+        <div class="recommand-slider owl-carousel owl-loaded">
+          <!--owl-stage-outer-->
           <div class="owl-stage-outer">
             <div
               class="owl-stage"
               style="
                 transform: translate3d();
                 transition: all 0s ease 0s;
-                width: 4830px;
+                width: 7980px;
               "
             >
-              <div class="owl-item cloned" style="width: 690px">
+              <div class="owl-item cloned" style="width: 1140px">
                 <div
                   class="hero-items set-bg"
-                  data-setbg="img/onepiecerecommend"
-                  style="background: url(img/onepiecerecommend.jpg)"
-                ></div>
+                  data-setbg="img/onepiecerecommend.jpg"
+                  style="background-image: url(img/onepiecerecommend.jpg)"
+                >
+                  <div class="recommend-row">
+                    <div class="col-lg-6">
+                      <div class="hero-text">
+                        <div class="label">Adventure</div>
+                        <h2>One Piece</h2>
+                        <p>
+                          One Piece is the story of Monkey D. Luffy, a young man
+                          who has a single dream: To find the legendary treasure
+                          known as the One Piece and become the King of the
+                          Pirates.
+                        </p>
+                        <a href="#"
+                          ><span>Watch Now</span
+                          ><i class="fa-angle-right">::before</i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
+              <div class="owl-item cloned" style="width: 1140px"></div>
+              <div class="owl-item" style="width: 1140px"></div>
+              <div class="owl-item" style="width: 1140px"></div>
             </div>
+          </div>
+
+          <!--OWL NAV-->
+          <div class="owl-nav">
+            <button type="button" role="presentation" class="owl-prev"></button>
+            <button type="button" role="presentation" class="owl-next"></button>
+          </div>
+
+          <!--owl-dots-->
+          <div class="owl-dots">
+            <button role="button-dots" class="button-owl">
+              <span></span>
+            </button>
           </div>
         </div>
       </div>
     </section>
+
+    <!--app.js link-->
+    <script src="app.js"></script>
   </body>
 </html>
