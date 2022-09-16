@@ -304,7 +304,7 @@
   width: 80%;
 }
 
-/* MOBILE RESPONSIVE */
+/* DIFFERENT DEVICE RESPOND */
 
 @media screen and (max-width: 768px) {
   .main_container {
@@ -358,6 +358,16 @@
   }
 }
 
+@media (min-width: 1920px) and (max-width: 2560px) {
+  .anime .content h3 {
+    font-size: 1.7rem;
+    color: red;
+    text-transform: uppercase;
+    text-align: center;
+    padding-right: 3rem;
+  }
+}
+
 /* ON GOING SECTION */
 
 .heading {
@@ -383,7 +393,7 @@
   color: red;
   text-transform: uppercase;
   text-align: center;
-  padding-right: 2.5rem;
+  padding-right: 6rem;
 }
 
 .anime .content p {
