@@ -1,8 +1,10 @@
 * {
-  font-family: "Nunito", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Combo", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .navbar {
@@ -391,15 +393,7 @@
   color: cyan;
 }
 
-/* RECOMMEND SECTION */
-
-.recommend-html {
-  padding: 50px;
-}
-
-section {
-  display: block;
-}
+/* RECOMMEND CONTAINER */
 
 body {
   font-family: "Mulish", sans-serif;
@@ -411,8 +405,6 @@ body {
   text-align: left;
 }
 
-/* RECOMMEND CONTAINER */
-
 .carousel-item img {
   -webkit-background-size: cover;
   background-size: cover;
@@ -420,4 +412,28 @@ body {
   background-repeat: no-repeat;
   width: auto;
   height: 100vh;
+  filter: brightness(80%);
+  border-radius: 6px;
+  border: 4px solid white;
 }
+
+.recommend-box {
+  background: rgba(29, 27, 27, 0.622);
+  width: 100%;
+  padding: 25px;
+}
+
+.carousel-item h1 {
+  color: red;
+  text-transform: uppercase;
+}
+
+.carousel-item p {
+  color: cyan;
+}
+
+.recommend-box p {
+  text-align: justify;
+}
+
+/* RECOMMEND COLUMN */
