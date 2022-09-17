@@ -491,3 +491,20 @@ body {
 .col img {
   border-radius: 6px;
 }
+
+/* END COLUMNS HERE */
+
+/*RECOMMEND SECTION 2 CSS */
+
+.product {
+  padding-bottom: 60px;
+  padding-top: 80px;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
