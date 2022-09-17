@@ -414,7 +414,7 @@ body {
   height: 100vh;
   filter: brightness(80%);
   border-radius: 6px;
-  border: 4px solid white;
+  border: 4px solid black;
 }
 
 .recommend-box {
@@ -437,3 +437,57 @@ body {
 }
 
 /* RECOMMEND COLUMN */
+
+.left-heading {
+  text-align: left;
+  color: red;
+  padding-bottom: 20px;
+}
+
+.left-columns {
+  float: left;
+  width: 75%;
+  padding: 12px;
+  min-height: 300px;
+  background-color: cyan;
+  border: 4px solid black;
+}
+
+.right-heading {
+  text-align: left;
+  color: Red;
+  padding-bottom: 20px;
+}
+
+.right-columns {
+  float: left;
+  width: 25%;
+  padding: 12px;
+  min-height: 300px;
+  background-color: cyan;
+  border: 4px solid white;
+}
+
+.col h5 {
+  color: blue;
+  position: relative;
+  padding: 12px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.right-col h5 {
+  color: blue;
+  align-items: center;
+  padding: 12px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.right-col img {
+  border-radius: 6px;
+}
+
+.col img {
+  border-radius: 6px;
+}
