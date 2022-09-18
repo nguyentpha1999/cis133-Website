@@ -497,7 +497,7 @@ body {
 .section-title h3 {
   color: white;
   font-weight: 600;
-  line-height: 21px;
+  line-height: 20px;
   text-transform: uppercase;
   padding-left: 20px;
   position: relative;
@@ -633,9 +633,101 @@ ul {
 
 /* RECOMMEND RIGHT COLUMNS */
 
-@media (min-width: 768px) {
-  .col-md-6 {
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
+.col-lg-4 .col-md-6 .col-sm-8 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.product__sidebar__view {
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.section-title {
+  margin-bottom: 30px;
+}
+
+.product__sidebar .section-title h5 {
+  color: white;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding-left: 20px;
+  position: relative;
+}
+
+.product__sidebar .section-title h5:after {
+  position: absolute;
+  left: 0;
+  top: -6px;
+  height: 32px;
+  width: 4px;
+  background: red;
+  content: "";
+}
+
+.product__sidebar__view .filter__controls {
+  position: absolute;
+  right: 0;
+  top: -5px;
+}
+
+.product__sidebar__view .filter__controls li.active {
+  color: white;
+}
+
+.product__sidebar__view .filter__controls li {
+  list-style: none;
+  font-size: 14px;
+  display: inline-block;
+  cursor: pointer;
+  color: lightgray;
+}
+
+.product__sidebar__view__item {
+  height: 270px;
+  position: relative;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.product__sidebar__view__item .ep {
+  font-size: 12px;
+  color: white;
+  background: red;
+  display: inline-block;
+  padding: 2px 12px;
+  border-radius: 4px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.product__sidebar__view__item .view {
+  font-size: 12px;
+  color: white;
+  background: red;
+  display: inline-block;
+  padding: 2px 12px;
+  border-radius: 4px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.product__sidebar__view__item .name h5 {
+  font-size: 12px;
+  color: white;
+  background: red;
+  display: inline-block;
+  padding: 2px 12px;
+  border-radius: 4px;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  font-size: 22px;
+  text-transform: uppercase;
 }
