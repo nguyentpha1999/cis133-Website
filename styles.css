@@ -731,3 +731,93 @@ ul {
   font-size: 22px;
   text-transform: uppercase;
 }
+
+/* RECOMMEND FOOTERS */
+
+.footer {
+  background: black;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.page-up {
+  position: absolute;
+  left: 50%;
+  top: -25px;
+  margin-left: -25px;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.page-up a {
+  display: inline-block;
+  font-size: 36px;
+  color: white;
+  height: 50px;
+  width: 50px;
+  background: red;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.page-up a span {
+  position: relative;
+  top: 2px;
+  left: -1px;
+}
+
+.col-lg-3 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-lg-6 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.footer__logo a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: transparent;
+  text-align: center;
+}
+
+.footer__nav {
+  text-align: center;
+}
+
+.footer__nav ul li {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  margin-right: 40px;
+}
+
+.footer__nav ul li a {
+  font-size: 17px;
+  color: red;
+  display: block;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+
+.container .col-lg-3 a {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
