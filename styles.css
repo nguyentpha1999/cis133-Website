@@ -783,3 +783,23 @@ ul {
   text-transform: uppercase;
   text-align: center;
 }
+
+/* POPULAR SECTION */
+
+/* MOVIE SECTION */
+
+.carousel-item img {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: auto;
+  filter: brightness(80%);
+}
+
+.box {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 25px;
+}

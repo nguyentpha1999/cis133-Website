@@ -20,3 +20,16 @@ var swiper = new Swiper(".anime-slider", {
   },
   loop: true,
 });
+
+var swiper = new Swiper(".popular-slider", {
+  direction: "vertical",
+  autoplay: {
+    delay: 4500,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  loop: true,
+});
