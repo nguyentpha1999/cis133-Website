@@ -110,53 +110,22 @@
 }
 
 /* HOMEPAGE CSS */
-
 .main {
-  background-color: black;
-}
-
-.main_container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-self: center;
   margin: 0 auto;
   height: 90vh;
-  background-color: black;
   z-index: 1;
   width: 100%;
-  max-width: 1300px;
   padding: 0 50px;
-}
-
-.main_content h1 {
-  font-size: 4rem;
-  background-color: red;
-  background-image: linear-gradient(to top, red 0%, red 100%);
-  background-size: 100%;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-
-.main_content h2 {
-  font-size: 4rem;
-  background-color: orange;
-  background-image: linear-gradient(to top, orange 0%, orange 100%);
-  background-size: 100%;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  background-image: url(img/onepiecemain.jpeg);
 }
 
 .main_content p {
-  margin-top: 1rem;
-  font-size: 2rem;
-  font-weight: 700;
+  margin-top: 2rem;
+  font-size: 20px;
   color: white;
 }
 
@@ -201,13 +170,9 @@
   width: 100%;
 }
 
-.main_img--container {
-  text-align: center;
-}
-
-#main_img {
-  height: 80%;
-  width: 80%;
+.footer__logo h1 {
+  color: blue;
+  text-transform: uppercase;
 }
 
 /* ON GOING SECTION */
@@ -301,6 +266,7 @@ body {
   background: rgba(29, 27, 27, 0.622);
   width: 100%;
   padding: 25px;
+  border-radius: 4px;
 }
 
 .carousel-item h1 {
@@ -917,6 +883,7 @@ nav.menu_recent ul li p {
   background: rgba(0, 0, 0, 0.5);
   width: 100%;
   padding: 25px;
+  border-radius: 4px;
 }
 
 /* FOOTERS */
