@@ -13,38 +13,669 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
+
+    <!--fontawesome icon-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <!--styles.css-->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Combo&family=Montserrat:wght@200;300;400;500&family=Poppins:wght@100;300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap"
+      rel="stylesheet"
+    />
+    <!--getbootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <!--head and body-->
   </head>
   <body>
-    <nav class="navbar">
-      <div class="navbar_container">
-        <a href="" id="navbar_logo"><i class="fa-solid fa-tv"></i>ANIME4YOU</a>
-        <div class="navbar_toggle" id="mobile-menu">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-        <ul class="navbar_menu">
-          <li class="navbar_btn">
-            <a href="home.html" class="button">HOME</a>
-          </li>
-          <li class="navbar_item">
-            <a href="recommend.html" class="navbar_links">RECOMMEND</a>
-          </li>
-          <li class="navbar_item">
-            <a href="popular.html" class="navbar_links">POPULAR</a>
-          </li>
-          <li class="navbar_item">
-            <a href="genre.html" class="navbar_links">GENRE</a>
-          </li>
-          <li class="navbar_item">
-            <a href="movie.html" class="navbar_links">MOVIE</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
+    <div class="clr"></div>
     <!--POPULAR SECTION-->
+    <div id="wrapper_inside">
+      <div id="wrapper">
+        <div id="wrapper_bg">
+          <header>
+            <section class="headnav">
+              <nav class="navbar">
+                <div class="navbar_container">
+                  <a href="" id="navbar_logo"
+                    ><i class="fa-solid fa-tv"></i>ANIME4YOU</a
+                  >
+                  <div class="navbar_toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                  </div>
+                  <ul class="navbar_menu">
+                    <li class="navbar_btn">
+                      <a href="home.html" class="button">HOME</a>
+                    </li>
+                    <li class="navbar_item">
+                      <a href="recommend.html" class="navbar_links"
+                        >RECOMMEND</a
+                      >
+                    </li>
+                    <li class="navbar_item">
+                      <a href="popular.html" class="navbar_links">POPULAR</a>
+                    </li>
+                    <li class="navbar_item">
+                      <a href="genre.html" class="navbar_links">GENRE</a>
+                    </li>
+                    <li class="navbar_item">
+                      <a href="movie.html" class="navbar_links">MOVIE</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </section>
+          </header>
+          <section class="content">
+            <section class="content_left">
+              <div class="main_body">
+                <div class="anime_name anime_eps">
+                  <i class="icongec-anime_eps i_pos"></i>
+                  <h2>Popular</h2>
+                  <div class="anime_name_pagination">
+                    <div class="pagination">
+                      <ul class="pagination-list">
+                        <li class="selected">
+                          <a href="/Popular/1" data-page="1">1</a>
+                        </li>
+                        <li>
+                          <a href="/Popular/2" data-page="2">2</a>
+                        </li>
+                        <li>
+                          <a href="/Popular/3" data-page="3">3</a>
+                        </li>
+                        <li>
+                          <a href="/Popular/4" data-page="4">4</a>
+                        </li>
+                        <li>
+                          <a href="/Popular/4" data-page="5">5</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!--LEFT SECTION-->
+                <div class="popular_episodes">
+                  <ul class="items">
+                    <li>
+                      <div class="img">
+                        ::before
+                        <a href="/One Piece/" title="One Piece">
+                          <img src="img/onepiecepopular.jpg" alt="One Piece" />
+                          ::after
+                        </a>
+                      </div>
+                      <p class="name">
+                        <a href="/One Piece/" title="One Piece">One Piece</a>
+                      </p>
+                      <p class="rating">Rating: 8.9/10</p>
+                      <p class="released">Released: 1999</p>
+                    </li>
+                    <li>
+                      <div class="img">
+                        ::before
+                        <a href="/Bleach/" title="Bleach">
+                          <img src="img/bleachpopular.jpg" alt="Bleach" />
+                          ::after
+                        </a>
+                      </div>
+                      <p class="name">
+                        <a href="/Bleach/" title="Bleach">Bleach</a>
+                      </p>
+                      <p class="rating">Rating: 8.2/10</p>
+                      <p class="released">Released: 2004</p>
+                    </li>
+                    <li>
+                      <div class="img">
+                        ::before
+                        <a href="/Demon Slayer/" title="Demon Slayer">
+                          <img
+                            src="img/demonslayerpopular.jpg"
+                            alt="Demon Slayer"
+                          />
+                          ::after
+                        </a>
+                      </div>
+                      <p class="name">
+                        <a href="/Demon Slayer" title="Demon Slayer"
+                          >Demon Slayer</a
+                        >
+                      </p>
+                      <p class="rating">Rating: 8.7/10</p>
+                      <p class="released">Released: 2019</p>
+                    </li>
+                    <li>
+                      <div class="img">
+                        ::before
+                        <a href="/86 Part 2/" title="86 Part 2">
+                          <img src="img/86part2popular.jpg" alt="86 Part 2" />
+                          ::after
+                        </a>
+                      </div>
+                      <p class="name">
+                        <a href="/86 Part 2/" title="86 Part 2">86 Part 2</a>
+                      </p>
+                      <p class="rating">Rating: 8.2/10</p>
+                      <p class="released">Released: 2021</p>
+                    </li>
+                  </ul>
+                  <ul class="items">
+                    <li>
+                      <div class="img">
+                        ::before
+                        <a href="/Hunter X Hunter/" title="Hunter X Hunter">
+                          <img src="img/hxhpopular.jpg" alt="Hunter X Hunter" />
+                          ::after
+                        </a>
+                      </div>
+                      <p class="name">
+                        <a href="/Hunter X Hunter/" title="Hunter X Hunter"
+                          >Hunter X Hunter</a
+                        >
+                      </p>
+                      <p class="rating">Rating: 9/10</p>
+                      <p class="released">Released: 2011</p>
+                    </li>
+                    <li>
+                      <div class="img">
+                        ::before
+                        <a href="/Naruto/" title="Naruto">
+                          <img src="img/narutopopular.jpg" alt="Naruto" />
+                          ::after
+                        </a>
+                      </div>
+                      <p class="name">
+                        <a href="/Naruto/" title="Naruto">Naruto</a>
+                      </p>
+                      <p class="rating">Rating: 8.4/10</p>
+                      <p class="released">Released: 2002</p>
+                    </li>
+                    <li>
+                      <div class="img">
+                        ::before
+                        <a href="/Death Note/" title="Death Note">
+                          <img
+                            src="img/deathnotepopular.jpg"
+                            alt="Death Note"
+                          />
+                          ::after
+                        </a>
+                      </div>
+                      <p class="name">
+                        <a href="/Death Note/" title="Death Note">Death Note</a>
+                      </p>
+                      <p class="rating">Rating: 9/10</p>
+                      <p class="released">Released: 2006</p>
+                    </li>
+                    <li>
+                      <div class="img">
+                        ::before
+                        <a
+                          href="/Fullmetal Alchemist/"
+                          title="Fullmetal Alchemist"
+                        >
+                          <img
+                            src="img/fullmetalalchemistpopular.jpg"
+                            alt="Fullmetal Alchemist"
+                          />
+                          ::after
+                        </a>
+                      </div>
+                      <p class="name">
+                        <a href="/86 Part 2/" title="86 Part 2"
+                          >Fullmetal Alchemist</a
+                        >
+                      </p>
+                      <p class="rating">Rating: 9.1/10</p>
+                      <p class="released">Released: 2009</p>
+                    </li>
+                  </ul>
+                  <ul class="items">
+                    <li>
+                      <div class="img">
+                        ::before
+                        <a href="/Jujutsu Kaisen/" title="Jujutsu Kaisen">
+                          <img
+                            src="img/jujutsukaisenpopular.jpg"
+                            alt="Jujutsu Kaisen"
+                          />
+                          ::after
+                        </a>
+                      </div>
+                      <p class="name">
+                        <a href="/Jujutsu Kaisen/" title="One Piece"
+                          >Jujutsu Kaisen</a
+                        >
+                      </p>
+                      <p class="rating">Rating: 8.6/10</p>
+                      <p class="released">Released: 2020</p>
+                    </li>
+                    <li>
+                      <div class="img">
+                        ::before
+                        <a href="/Spy X Family/" title="Spy X Family">
+                          <img
+                            src="img/spyxfamilypopular.jpg"
+                            alt="Spy X Family"
+                          />
+                          ::after
+                        </a>
+                      </div>
+                      <p class="name">
+                        <a href="/Spy X Family/" title="Bleach">Spy X Family</a>
+                      </p>
+                      <p class="rating">Rating: 8.6/10</p>
+                      <p class="released">Released: 2022</p>
+                    </li>
+                    <li>
+                      <div class="img">
+                        ::before
+                        <a href="/Black Clover/" title="Black Clover">
+                          <img
+                            src="img/blackcloverpopular.jpg"
+                            alt="Black Clover"
+                          />
+                          ::after
+                        </a>
+                      </div>
+                      <p class="name">
+                        <a href="/Black Clover/" title="Black Clover"
+                          >Black Clover</a
+                        >
+                      </p>
+                      <p class="rating">Rating: 8.3/10</p>
+                      <p class="released">Released: 2017</p>
+                    </li>
+                    <li>
+                      <div class="img">
+                        ::before
+                        <a href="/Dragon Ball Z/" title="Dragon Ball Z">
+                          <img
+                            src="img/dragonballzpopular.jpg"
+                            alt="86 Part 2"
+                          />
+                          ::after
+                        </a>
+                      </div>
+                      <p class="name">
+                        <a href="/Dragon Ball Z/" title="Dragon Ball Z"
+                          >Dragon Ball Z</a
+                        >
+                      </p>
+                      <p class="rating">Rating: 8.8/10</p>
+                      <p class="released">Released: 1989</p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="popular_episodes">
+                  <ul class="items">
+                    <li>
+                      <div class="img">
+                        ::before
+                        <a href="/Cowboy Bebop/" title="Cowboy Bebop">
+                          <img
+                            src="img/cowboybeboppopular.jpg"
+                            alt="Cowboy Bebop"
+                          />
+                          ::after
+                        </a>
+                      </div>
+                      <p class="name">
+                        <a href="/Cowboy Bebop/" title="Cowboy Bebop"
+                          >Cowboy Bebop</a
+                        >
+                      </p>
+                      <p class="rating">Rating: 8.9/10</p>
+                      <p class="released">Released: 1998</p>
+                    </li>
+                    <li>
+                      <div class="img">
+                        ::before
+                        <a href="/One Punch Man/" title="One Punch Man">
+                          <img
+                            src="img/onepunchmanpopular.jpg"
+                            alt="One Punch Man"
+                          />
+                          ::after
+                        </a>
+                      </div>
+                      <p class="name">
+                        <a href="/One Punch Man/" title="One Punch Man"
+                          >One Punch Man</a
+                        >
+                      </p>
+                      <p class="rating">Rating: 8.7/10</p>
+                      <p class="released">Released: 2015</p>
+                    </li>
+                    <li>
+                      <div class="img">
+                        ::before
+                        <a href="/Code Geass/" title="Code Geass">
+                          <img
+                            src="img/codegeasspopular.jpg"
+                            alt="Code Geass"
+                          />
+                          ::after
+                        </a>
+                      </div>
+                      <p class="name">
+                        <a href="/Code Geass/" title="Code Geass">Code Geass</a>
+                      </p>
+                      <p class="rating">Rating: 8.7/10</p>
+                      <p class="released">Released: 2006</p>
+                    </li>
+                    <li>
+                      <div class="img">
+                        ::before
+                        <a href="/Steins;Gate/" title="Steins;Gate">
+                          <img
+                            src="img/steinsgatepopular.jpg"
+                            alt="Steins;Gate"
+                          />
+                          ::after
+                        </a>
+                      </div>
+                      <p class="name">
+                        <a href="/Steins;Gate/" title="Steins;Gate"
+                          >Steins;Gate</a
+                        >
+                      </p>
+                      <p class="rating">Rating: 8.8/10</p>
+                      <p class="released">Released: 2011</p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="popular_episodes">
+                  <ul class="items">
+                    <li>
+                      <div class="img">
+                        ::before
+                        <a href="/Mob Spycho 100/" title="Mob Spycho 100">
+                          <img
+                            src="img/mobspycho100.jpg"
+                            alt="Mob Spycho 100"
+                          />
+                          ::after
+                        </a>
+                      </div>
+                      <p class="name">
+                        <a href="/Mob Spycho 100/" title="Mob Spycho 100"
+                          >Mob Spycho 100</a
+                        >
+                      </p>
+                      <p class="rating">Rating: 8.6/10</p>
+                      <p class="released">Released: 2016</p>
+                    </li>
+                    <li>
+                      <div class="img">
+                        ::before
+                        <a href="/Overlord/" title="Overlord">
+                          <img src="img/overlordpopular.jpg" alt="Overlord" />
+                          ::after
+                        </a>
+                      </div>
+                      <p class="name">
+                        <a href="/Overlord/" title="Overlord">Overlord</a>
+                      </p>
+                      <p class="rating">Rating: 8.2/10</p>
+                      <p class="released">Released: 2015</p>
+                    </li>
+                    <li>
+                      <div class="img">
+                        ::before
+                        <a href="/Future Diary/" title="Future Diary">
+                          <img
+                            src="img/futurediarypopular.jpg"
+                            alt="One Piece"
+                          />
+                          ::after
+                        </a>
+                      </div>
+                      <p class="name">
+                        <a href="/One Piece/" title="One Piece">One Piece</a>
+                      </p>
+                      <p class="rating">Rating: 8.2/10</p>
+                      <p class="released">Released: 2011</p>
+                    </li>
+                    <li>
+                      <div class="img">
+                        ::before
+                        <a
+                          href="/Record Of Ragnarok/"
+                          title="Record Of Ragnarok"
+                        >
+                          <img
+                            src="img/recordofragnarokpopular.jpg"
+                            alt="Record Of Ragnarok"
+                          />
+                          ::after
+                        </a>
+                      </div>
+                      <p class="name">
+                        <a
+                          href="/Record Of Ragnarok/"
+                          title="Record Of Ragnarok"
+                          >Record Of Ragnarok</a
+                        >
+                      </p>
+                      <p class="rating">Rating: 8/10</p>
+                      <p class="released">Released: 2021</p>
+                    </li>
+                  </ul>
+                </div>
+                <!--END HERE-->
+              </div>
+            </section>
+            <section class="content_right">
+              <div class="main_body">
+                <div class="main_body_recent">
+                  <div class="anime_name recentrelease">
+                    <i class="icongec-ongoing i_pos"></i>
+                    <h2>Recent Release</h2>
+                  </div>
+                  <div class="recent">
+                    <div id="scrollbar_main">
+                      <div class="scrollbar disable" style="height: 1000px">
+                        <div class="track" style="height: 1000px">
+                          <div class="thumb" style="top: 0px; height: 1000px">
+                            <div class="end"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="viewport">
+                        <div class="overview" style="top: 0px">
+                          <nav class="menu_recent">
+                            <ul>
+                              <li>
+                                <a href="img/engagekissrecent.jpg">
+                                  <div
+                                    class="thumbnail-recent"
+                                    style="
+                                      background: url(img/engagekissrecent.jpg);
+                                    "
+                                  ></div>
+                                  Engage Kiss
+                                </a>
+                                <a href="img/onepiecerecent.jpg">
+                                  <p class="time_eps">Episode 13 Final</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="img/onepiecerecent.jpg">
+                                  <div
+                                    class="thumbnail-recent"
+                                    style="
+                                      background: url(img/onepiecerecent.jpg);
+                                    "
+                                  ></div>
+                                  One Piece
+                                </a>
+                                <a href="img/onepiecerecent.jpg">
+                                  <p class="time_eps">Episode 1034</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="img/fuutopirecent.jpg">
+                                  <div
+                                    class="thumbnail-recent"
+                                    style="
+                                      background: url(img/fuutopirecent.jpg);
+                                    "
+                                  ></div>
+                                  Fuuto Tantei
+                                </a>
+                                <a href="img/fuutopirecent.jpg">
+                                  <p class="time_eps">Episode 9</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="img/blacksummonerrecent.jpg">
+                                  <div
+                                    class="thumbnail-recent"
+                                    style="
+                                      background: url(img/blacksummonerrecent.jpg);
+                                    "
+                                  ></div>
+                                  Kuro no Shoukanshi
+                                </a>
+                                <a href="img/blacksummonerrecent.jpg">
+                                  <p class="time_eps">Episode 12 Final</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="img/teppenrecent.jpg">
+                                  <div
+                                    class="thumbnail-recent"
+                                    style="
+                                      background: url(img/teppenrecent.jpg);
+                                    "
+                                  ></div>
+                                  Teppen
+                                </a>
+                                <a href="img/teppenrecent.jpg">
+                                  <p class="time_eps">Episode 12 Final</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="img/luminouswitchesrecent.jpg">
+                                  <div
+                                    class="thumbnail-recent"
+                                    style="
+                                      background: url(img/luminouswitchesrecent.jpg);
+                                    "
+                                  ></div>
+                                  Luminous Witches
+                                </a>
+                                <a href="img/luminouswitchesrecent.jpg">
+                                  <p class="time_eps">Episode 12 Final</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="img/kingdom4recent.jpg">
+                                  <div
+                                    class="thumbnail-recent"
+                                    style="
+                                      background: url(img/kingdom4recent.jpg);
+                                    "
+                                  ></div>
+                                  Kingdom 4
+                                </a>
+                                <a href="img/luminouswitchesrecent.jpg">
+                                  <p class="time_eps">Episode 25</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="img/aoashirecent.jpg">
+                                  <div
+                                    class="thumbnail-recent"
+                                    style="
+                                      background: url(img/aoashirecent.jpg);
+                                    "
+                                  ></div>
+                                  Ao Ashi
+                                </a>
+                                <a href="img/aoashirecent.jpg">
+                                  <p class="time_eps">Episode 24 Final</p>
+                                </a>
+                              </li>
+                            </ul>
+                          </nav>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+        </div>
+        <!--FOOTER-->
+        <div class="menu_bottom">
+          <!--Footers-->
+          <footer class="footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3">
+                  <div class="footer__logo">
+                    <a href="./home.html">
+                      <h2><i class="fa-solid fa-tv"></i>Anime4You</h2>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="footer__nav">
+                    <ul>
+                      <li class="active">
+                        <a href="./home.html">Homepage</a>
+                      </li>
+                      <li>
+                        <a href="./home.html">Donate</a>
+                      </li>
+                      <li>
+                        <a href="./home.html">Contacts</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <p>
+                    <a href="./home.html">
+                      Copyright ©2022 All rights reserved | ANIME4YOU made by
+                      swdevpha1999@gmail.com</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
 
     <!--JS-->
     <script src="app.js"></script>

@@ -2,10 +2,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Combo", cursive;
   font-family: "Montserrat", sans-serif;
   font-family: "Poppins", sans-serif;
 }
+
+/* NAVBAR CSS */
 
 .navbar {
   background: black;
@@ -108,7 +109,7 @@
   color: Blue;
 }
 
-/* HERO SECTION CSS */
+/* HOMEPAGE CSS */
 
 .main {
   background-color: black;
@@ -242,6 +243,39 @@
   color: cyan;
 }
 
+/* ON GOING SECTION */
+
+.heading {
+  text-align: center;
+  color: red;
+  margin-bottom: 3rem;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.anime {
+  padding: 5rem;
+  background-color: black;
+}
+
+.anime .box {
+  width: 299px;
+  height: 168px;
+}
+
+.anime .content h3 {
+  font-size: 1.7rem;
+  color: red;
+  text-transform: uppercase;
+  text-align: center;
+  padding-right: 2.5rem;
+}
+
+.anime .content p {
+  font-size: 1rem;
+  color: cyan;
+}
+
 /* RECOMMEND CONTAINER */
 
 body {
@@ -255,14 +289,12 @@ body {
 }
 
 .carousel-item img {
-  -webkit-background-size: cover;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
-  width: auto;
   height: 100vh;
   filter: brightness(80%);
-  border: 4px solid black;
+  border: 2px solid white;
 }
 
 .recommend-box {
@@ -522,104 +554,352 @@ ul {
   margin-bottom: 20px;
 }
 
-/* FOOTERS */
-
-.footer {
-  background: black;
-  padding-top: 60px;
-  padding-bottom: 40px;
-  position: relative;
-}
-
-.page-up {
-  position: absolute;
-  left: 50%;
-  top: -25px;
-  margin-left: -25px;
-}
-
-.container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.page-up a {
-  display: inline-block;
-  font-size: 36px;
-  color: white;
-  height: 50px;
-  width: 50px;
-  background: red;
-  line-height: 50px;
-  text-align: center;
-  border-radius: 50%;
-}
-
-.page-up a span {
-  position: relative;
-  top: 2px;
-  left: -1px;
-}
-
-.col-lg-3 {
-  position: relative;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-.col-lg-6 {
-  position: relative;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-.footer__logo a {
-  text-decoration: none;
-  text-transform: uppercase;
-  background-color: transparent;
-  color: blue;
-  text-align: center;
-}
-
-.footer__nav {
-  text-align: center;
-}
-
-.footer__nav ul li {
-  list-style: none;
-  display: inline-block;
-  position: relative;
-  margin-right: 40px;
-}
-
-.footer__nav ul li a {
-  font-size: 17px;
-  color: red;
-  display: block;
-  font-weight: 700;
-  text-decoration: none;
-  background-color: transparent;
-  text-transform: uppercase;
-}
-
-.container .col-lg-3 a {
-  text-decoration: none;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.footer__nav a {
-  text-decoration: none;
-  text-align: center;
-  color: blue;
-}
-
 /* POPULAR SECTION */
+
+html {
+  background-color: black;
+}
+
+.clr {
+  clear: both;
+}
+
+section {
+  display: block;
+}
+
+#wrapper_inside {
+  margin: auto;
+  width: 1088px;
+}
+
+#wrapper {
+  float: left;
+  width: 1088px;
+  background-color: black;
+  padding: 0 20px;
+}
+
+#wrapper_bg {
+  float: left;
+  width: 100%;
+}
+
+section.headnav {
+  float: left;
+  width: 100%;
+  padding: 12px 0 35px 0px;
+}
+
+section.content {
+  float: left;
+  width: 100%;
+  margin: 15px 0;
+}
+
+section.content section.content_left {
+  float: left;
+  width: 728px;
+}
+
+section.content section.content_right {
+  float: right;
+  width: 300px;
+}
+
+.main_body {
+  float: left;
+  width: 100%;
+  border: 1px solid lightseagreen;
+  margin-bottom: 26px;
+}
+
+.anime_name.anime_eps {
+  background-position: -323px;
+}
+
+.anime_name {
+  padding: 11px 0 11px 66px;
+  background-repeat: no-repeat;
+  background-color: orange;
+  position: relative;
+}
+
+.icogec-anime_eps {
+  background-position: -288px -72px;
+}
+
+.i_pos {
+  width: 54px;
+  height: 55px;
+  margin-left: 3px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+[class^="icongec-"],
+[class*="icongec-"] {
+  background: url(https://ww3.gogoanime2.org/static/bg-main-3.webp) no-repeat -30px
+    top;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.anime_name h2 {
+  color: black;
+  font-family: mySecondFont;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.anime_name_pagination {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.pagination {
+  padding: 6px 0;
+  float: right;
+  margin-right: 14px;
+}
+
+.pagination ul {
+  margin: 0;
+  padding: 0;
+}
+
+.pagination ul li {
+  float: left;
+  list-style: none;
+}
+
+.pagination ul li a {
+  display: block;
+  padding: 3px 8px;
+  margin: 2px;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.popular_episodes {
+  float: left;
+  padding: 0 16px;
+  width: 100%;
+}
+
+ul.items {
+  margin-top: 20px;
+}
+
+ul.items li:nth-child(4n + 1) {
+  margin-left: 0;
+}
+
+ul.items li {
+  float: left;
+  position: relative;
+  margin-left: 1.9%;
+  width: 22%;
+  text-align: center;
+  list-style: none;
+  margin-bottom: 20px;
+  vertical-align: top;
+}
+
+ul.items li .img {
+  overflow: hidden;
+  position: relative;
+}
+
+ul.items li .img:before {
+  content: "";
+  display: block;
+  padding-top: 125%;
+}
+
+ul.items li .img a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+ul.items li .img img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+
+ul.items li .img a:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 33px;
+  background: linear-gradient(transparent, #1b1b1b);
+  z-index: 1;
+  opacity: 0.9;
+}
+
+ul.items li p.name {
+  line-height: 16px;
+  height: 34px;
+  overflow: hidden;
+}
+
+ul.items li p.name a {
+  color: white;
+  font-size: 14px;
+  font-family: mySecondFont;
+  text-decoration: none;
+  transition: all 0.3s linear 0s;
+}
+
+ul.items li p.released {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 12px;
+}
+
+ul.items li p.rating {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 12px;
+}
+
+/* END OF LEFT SECTION */
+
+.main_body {
+  float: left;
+  width: 100%;
+  border: 1px solid lightseagreen;
+  margin-bottom: 26px;
+}
+
+.main_body_recent {
+  float: left;
+  width: 100%;
+}
+
+.anime_name.recentrelease {
+  background-position: right -184px;
+}
+
+.icongec-ongoing {
+  background-position: -270px top;
+}
+
+#scrollbar_main {
+  width: 296px;
+  text-align: justify;
+  margin: 15px 0 10px 0;
+}
+
+#scrollbar .disable {
+  display: none;
+}
+
+#scrollbar_main .scrollbar {
+  position: relative;
+  float: right;
+  width: 4px;
+  background-color: transparent;
+}
+
+#scrollbar_main .track {
+  width: 4px;
+  position: relative;
+  padding: 0 1px;
+  margin-left: -6px;
+}
+
+#scrollbar_main .thumb {
+  width: 5px;
+  cursor: pointer;
+  overflow: hidden;
+  position: absolute;
+  background-color: black;
+  border-radius: 8px;
+}
+
+#scrollbar_main .thumb .end {
+  overflow: hidden;
+  height: 5px;
+  width: 25px;
+}
+
+#scrollbar_main .viewport {
+  height: 1000px;
+  width: 280px;
+  overflow: hidden;
+  position: relative;
+}
+
+#scrollbar_main .overview {
+  list-style: none;
+  position: absolute;
+  left: 0;
+  padding: 0;
+  margin: 0;
+}
+
+nav.menu_recent {
+  float: left;
+  width: 100%;
+}
+
+nav.menu_recent ul {
+  padding: 0;
+  margin: 0;
+  float: left;
+  width: 100%;
+}
+
+.thumbnail-recent {
+  width: 120px;
+  height: 80px;
+  background-size: 100% auto;
+  background-repeat: repeat;
+  float: left;
+  margin-right: 16px;
+}
+
+nav.menu_recent ul li a {
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav.menu_recent ul li:first-child {
+  padding-top: 0;
+}
+
+nav.menu_recent ul li {
+  list-style: none;
+  padding: 16px 0 0 14px;
+  float: left;
+  text-align: left;
+  width: 100%;
+}
+
+nav.menu_recent ul li p {
+  font-size: 12px;
+  color: white;
+}
 
 /* MOVIE SECTION */
 
@@ -637,4 +917,71 @@ ul {
   background: rgba(0, 0, 0, 0.5);
   width: 100%;
   padding: 25px;
+}
+
+/* FOOTERS */
+
+.footer {
+  background: black;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer__logo a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: blue;
+}
+
+.footer__nav {
+  text-align: center;
+}
+
+.footer__nav ul li {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.footer__nav ul li a {
+  font-size: 17px;
+  color: red;
+  display: block;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: transparent;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.container .col-lg-3 a {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: blue;
+}
+
+.footer__nav a {
+  text-decoration: none;
+  text-align: center;
+  color: blue;
+}
+
+/* POPULAR FOOTER */
+.menu_bottom {
+  float: left;
+  padding: 15px;
+  font-size: 14px;
 }
