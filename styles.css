@@ -182,40 +182,7 @@
   text-align: center;
   color: red;
   margin-bottom: 3rem;
-  font-size: 4rem;
-  text-transform: uppercase;
-}
-
-.anime {
-  padding: 5rem;
-  background-color: black;
-}
-
-.anime .box {
-  width: 299px;
-  height: 168px;
-}
-
-.anime .content h3 {
-  font-size: 1.7rem;
-  color: red;
-  text-transform: uppercase;
-  text-align: center;
-  padding-right: 2.5rem;
-}
-
-.anime .content p {
-  font-size: 1rem;
-  color: cyan;
-}
-
-/* ON GOING SECTION */
-
-.heading {
-  text-align: center;
-  color: red;
-  margin-bottom: 3rem;
-  font-size: 4rem;
+  font-size: 3.2rem;
   text-transform: uppercase;
 }
 
@@ -230,7 +197,7 @@
 }
 
 .anime .content h3 {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   color: red;
   text-transform: uppercase;
   text-align: center;
@@ -239,7 +206,7 @@
 }
 
 .anime .content p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: cyan;
 }
 
@@ -976,4 +943,9 @@ nav.menu_recent ul li p {
   float: left;
   padding: 15px;
   font-size: 14px;
+}
+
+.footer__nav ul li a:hover {
+  transform: scale(1.2);
+  transition: all 1s linear 0s;
 }
