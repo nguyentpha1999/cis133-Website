@@ -121,6 +121,7 @@
   width: 100%;
   padding: 0 50px;
   background-image: url(img/onepiecemain.jpeg);
+  background-repeat: no-repeat;
 }
 
 .main_content p {
