@@ -124,6 +124,20 @@
   background-repeat: no-repeat;
 }
 
+.main-genre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-self: center;
+  margin: 0 auto;
+  height: 80vh;
+  z-index: 1;
+  width: 100%;
+  padding: 0 50px;
+  background-image: url(img/genrebackground.jpg);
+  background-repeat: no-repeat;
+}
+
 .main_content p {
   margin-top: 2rem;
   font-size: 20px;
@@ -188,12 +202,12 @@
 
 .anime {
   padding: 5rem;
-  background-color: black;
+  background-color: rgb(24, 4, 52);
 }
 
 .anime .box-hover {
-  width: 299px;
-  height: 168px;
+  width: 300px;
+  height: 200px;
 }
 
 .anime .content h3 {
@@ -261,7 +275,7 @@ body {
 .recommend {
   padding-bottom: 60px;
   padding-top: 80px;
-  background-color: rgb(23, 3, 51);
+  background-color: rgb(24, 4, 52);
 }
 
 .recommend-column {
@@ -340,7 +354,6 @@ body {
   position: relative;
   border-radius: 8px;
   margin: 0 10px;
-  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
 }
 
 .product__item__pic .ep {
@@ -374,7 +387,6 @@ body {
 
 .fa {
   display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
@@ -629,6 +641,7 @@ section.content section.content_right {
   float: left;
   padding: 0 16px;
   width: 100%;
+  background-color: rgb(24, 4, 52);
 }
 
 ul.items {
@@ -692,7 +705,6 @@ ul.items li .img a:after {
 
 .img {
   margin: 0 10px;
-  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
 }
 
 .img img {
@@ -745,6 +757,7 @@ ul.items li p.rating {
 .main_body_recent {
   float: left;
   width: 100%;
+  background-color: rgb(24, 4, 52);
 }
 
 .anime_name.recentrelease {
@@ -759,39 +772,6 @@ ul.items li p.rating {
   width: 296px;
   text-align: justify;
   margin: 15px 0 10px 0;
-}
-
-#scrollbar .disable {
-  display: none;
-}
-
-#scrollbar_main .scrollbar {
-  position: relative;
-  float: right;
-  width: 4px;
-  background-color: transparent;
-}
-
-#scrollbar_main .track {
-  width: 4px;
-  position: relative;
-  padding: 0 1px;
-  margin-left: -6px;
-}
-
-#scrollbar_main .thumb {
-  width: 5px;
-  cursor: pointer;
-  overflow: hidden;
-  position: absolute;
-  background-color: black;
-  border-radius: 8px;
-}
-
-#scrollbar_main .thumb .end {
-  overflow: hidden;
-  height: 5px;
-  width: 25px;
 }
 
 #scrollbar_main .viewport {
